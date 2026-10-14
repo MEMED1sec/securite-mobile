@@ -45,4 +45,5 @@
 | [lab2-dev-dobile](./lab2-dev-dobile) | Application Android — Calcul des impôts locaux |
 | [lab3-dev-mobile](./lab3-dev-mobile) | Screen 1 – Formulaire |
 | [lab1-sec-mob](./lab1-sec-mob) | 1 . Configuration Réseau – Adaptateur 1 (Host-Only) |
+| [mobile-app](./mobile-app) | 🛒 WachZiaan - Prduct Scanner App |
 

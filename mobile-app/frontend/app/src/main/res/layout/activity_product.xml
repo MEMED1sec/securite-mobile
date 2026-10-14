@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_light">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="Détail du produit"
+        app:titleTextColor="@color/text_primary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/yuka_green">
+
+                <ImageView
+                    android:id="@+id/imgProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Image du produit"
+                    android:scaleType="centerInside"
+                    android:src="@android:drawable/ic_menu_gallery" />
+
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="32dp"
+                app:cardBackgroundColor="#757575"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp">
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Nom du produit"
+                        android:textColor="@color/white"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtBrand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Marque"
+                        android:textColor="#E0E0E0"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="32dp"
+                app:cardBackgroundColor="@color/text_secondary"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Nutri-Score"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:paddingBottom="16dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtNutriA"
+                            android:text="1"
+                            android:background="#2E7D32"
+                            android:textColor="@color/white"
+                            android:padding="12dp"
+                            android:minWidth="48dp"
+                            android:minHeight="48dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp" />
+                        <TextView
+                            android:id="@+id/txtNutriB"
+                            android:text="2"
+                            android:background="#66BB6A"
+                            android:textColor="@color/white"
+                            android:padding="12dp"
+                            android:minWidth="48dp"
+                            android:minHeight="48dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp" />
+                        <TextView
+                            android:id="@+id/txtNutriC"
+                            android:text="3"
+                            android:background="#FBC02D"
+                            android:textColor="@color/white"
+                            android:padding="12dp"
+                            android:minWidth="48dp"
+                            android:minHeight="48dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp" />
+                        <TextView
+                            android:id="@+id/txtNutriD"
+                            android:text="4"
+                            android:background="@color/nutriscore_d"
+                            android:textColor="@color/white"
+                            android:padding="12dp"
+                            android:minWidth="48dp"
+                            android:minHeight="48dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp" />
+                        <TextView
+                            android:id="@+id/txtNutriE"
+                            android:text="5"
+                            android:background="#FA0E0E"
+                            android:textColor="@color/white"
+                            android:padding="12dp"
+                            android:minWidth="48dp"
+                            android:minHeight="48dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="38dp"
+                app:cardBackgroundColor="#757575"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Liste des ingrédients"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtIngredients"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:lineSpacingExtra="10dp"
+                        android:text="Liste des ingrédients"
+                        android:textColor="#E0E0E0"
+                        android:textSize="20sp"
+                android:lineSpacingMultiplier="1.4" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="32dp"
+                app:cardBackgroundColor="#757575"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Allergènes"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtAllergens"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:lineSpacingExtra="10dp"
+                        android:text="Aucun additif"
+                        android:textColor="#E0E0E0"
+                        android:textSize="20sp"
+                android:lineSpacingMultiplier="1.4" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

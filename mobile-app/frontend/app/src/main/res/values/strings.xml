@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wach Mziaaan?</string>
+    <string name="nom_du_produit">Nom du produit</string>
+    <string name="marque">Marque</string>
+    <string name="ingredients">Ingrédients</string>
+    <string name="nutriscore">Nutriscore</string>
+    <string name="nutriscore_format">Nutriscore : %s</string>
+    <string name="produit_introuvable">Produit introuvable</string>
+    <string name="erreur_serveur">Erreur serveur</string>
+</resources>

@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class ProductResource extends JsonResource
+{
+    public function toArray($request)
+    {
+        return [
+            'id' => $this->id,
+            'barcode' => $this->barcode,
+            'name' => $this->name,
+            'brand' => $this->brand,
+            'image_url' => $this->image_url,
+            'nutrition_score' => $this->nutrition_score,
+            'ingredients' => $this->ingredients,
+            'metadata' => $this->metadata ?? new \stdClass(),
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
+        ];
+    }
+}
