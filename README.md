@@ -35,4 +35,5 @@
 | [lab10-sec-mob](./lab10-sec-mob) | Lab 10 : Instrumentation Dynamique avec Frida (Android) |
 | [lab7-sec-mob](./lab7-sec-mob) | Lab 7 de Sécurité Mobile : Pentesting DIVA avec MobSF |
 | [lab-6-sec-mob](./lab-6-sec-mob) | 📱 Audit de Sécurité Mobile Approfondi : DivaApplication.apk |
+| [lab22-dev-mob](./lab22-dev-mob) | Android JNI & NDK Lab : Communication Java / C++ |
 
