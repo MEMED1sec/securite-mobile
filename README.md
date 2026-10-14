@@ -11,4 +11,5 @@
 | [lab16-devmobile](./lab16-devmobile) | LAB 16 : Maîtriser les Services dans une Application Android |
 | [lab15-devmobile](./lab15-devmobile) | LAB 15 : SQLite et Android – Gestion simple des étudiants |
 | [sauvegarde-des-donn-es-sharedpreferences](./sauvegarde-des-donn-es-sharedpreferences) | LAB 14 : Sauvegarde des données – SharedPreferences et fichiers |
+| [lab-8-analyse-de-posture-et-exposition-d](./lab-8-analyse-de-posture-et-exposition-d) | Lab 8 — Analyse de sécurité d’une application Android avec Yaazhini et BeVigil |
 
