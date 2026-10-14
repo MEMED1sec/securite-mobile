@@ -12,4 +12,5 @@
 | [lab15-devmobile](./lab15-devmobile) | LAB 15 : SQLite et Android – Gestion simple des étudiants |
 | [sauvegarde-des-donn-es-sharedpreferences](./sauvegarde-des-donn-es-sharedpreferences) | LAB 14 : Sauvegarde des données – SharedPreferences et fichiers |
 | [lab-8-analyse-de-posture-et-exposition-d](./lab-8-analyse-de-posture-et-exposition-d) | Lab 8 — Analyse de sécurité d’une application Android avec Yaazhini et BeVigil |
+| [lab-12-localisation-temps-r-el-via-gps-e](./lab-12-localisation-temps-r-el-via-gps-e) | Rapport de TP : Application de Géolocalisation (Android, PHP, MySQL) |
 
