@@ -6,3 +6,4 @@
 | [lab-9-drozer](./lab-9-drozer) | Analyse de surface d'attaque Android avec Drozer |
 | [capteurs-android](./capteurs-android) | Capteurs embarqués Android |
 
+| [lab-11-bypass-de-la-d-tection-de-root-an](./lab-11-bypass-de-la-d-tection-de-root-an) | LAB 11 : Bypass de la Détection Root Android avec Frida |
