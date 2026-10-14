@@ -27,4 +27,5 @@
 | [lab10-devmobile](./lab10-devmobile) | lab 10 - Application Android Navigation Drawer |
 | [lab9-mobile](./lab9-mobile) | Projet Lab 9 — Application Android connectée à un Web Service PHP |
 | [lab1devmobile](./lab1devmobile) | LAB 1 – HelloToast |
+| [lab7-devmobile](./lab7-devmobile) | Android Stars Rating Gallery |
 
