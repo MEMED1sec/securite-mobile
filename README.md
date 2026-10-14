@@ -16,4 +16,5 @@
 | [lab11-gps](./lab11-gps) | Intégration de Google Maps et Géolocalisation - Android |
 | [dev13-devmobile](./dev13-devmobile) | Application Android de Suivi GPS avec Backend Local |
 | [lab11-devmobile](./lab11-devmobile) | LocalisationSmartphone + PHP/MySQL |
+| [lab6-devmobile](./lab6-devmobile) | Application Android - Pizza Recipes |
 
