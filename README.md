@@ -39,4 +39,5 @@
 | [lab5-sec-mob](./lab5-sec-mob) | LAB 5 : Reverse Engineering — UnCrackable Level 2 |
 | [lab8-dev-mob](./lab8-dev-mob) | README — Lab Android : Thread et AsyncTask |
 | [lab4-sec-mob](./lab4-sec-mob) | 🔐 Analyse statique d'une application Android |
+| [lab-2-rooting-android](./lab-2-rooting-android) | 🔓 LAB 2 : Rooting Android — Analyse d'impact |
 
