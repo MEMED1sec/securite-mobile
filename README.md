@@ -24,4 +24,5 @@
 | [lab-14-sec](./lab-14-sec) | LAB 14 — Bypass Root Detection sur Android avec Frida, Objection et Medusa |
 | [lab13-sec-mobile](./lab13-sec-mobile) | LAB 13 : Bypass de la Détection de Root Android avec Objection |
 | [lab-12-sec-mob](./lab-12-sec-mob) | LAB 12 : Bypass de la Détection Root Android avec Medusa |
+| [lab10-devmobile](./lab10-devmobile) | lab 10 - Application Android Navigation Drawer |
 
