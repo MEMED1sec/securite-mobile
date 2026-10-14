@@ -31,4 +31,5 @@
 | [lab5-dev](./lab5-dev) | README — Lab Android : Application de Conversion avec Java |
 | [lab19-sec-mob](./lab19-sec-mob) | Snake — Android Reverse Engineering Challenge |
 | [lab18-sec-mob](./lab18-sec-mob) | FireStorm - Android Reverse Engineering Challenge |
+| [lab23-dev-dobile](./lab23-dev-dobile) | 🔒 Android JNI Lab — Détection d’Environnement Suspect (Anti-Debug) |
 
