@@ -33,4 +33,5 @@
 | [lab18-sec-mob](./lab18-sec-mob) | FireStorm - Android Reverse Engineering Challenge |
 | [lab23-dev-dobile](./lab23-dev-dobile) | 🔒 Android JNI Lab — Détection d’Environnement Suspect (Anti-Debug) |
 | [lab10-sec-mob](./lab10-sec-mob) | Lab 10 : Instrumentation Dynamique avec Frida (Android) |
+| [lab7-sec-mob](./lab7-sec-mob) | Lab 7 de Sécurité Mobile : Pentesting DIVA avec MobSF |
 
