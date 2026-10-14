@@ -22,4 +22,5 @@
 | [lab19-dev](./lab19-dev) | LAB 19 : Room, MVVM, Repository, ViewModel, LiveData et RecyclerView |
 | [lab-15-sec-mob](./lab-15-sec-mob) | LAB 15 : Analyse Dynamique Android — Inspection TLS/HTTPS et Gestion du SSL Pinning |
 | [lab-14-sec](./lab-14-sec) | LAB 14 — Bypass Root Detection sur Android avec Frida, Objection et Medusa |
+| [lab13-sec-mobile](./lab13-sec-mobile) | LAB 13 : Bypass de la Détection de Root Android avec Objection |
 
